@@ -37,6 +37,9 @@ body{
     margin-left: 0px;
     display: inline-block;
 }
+.img{
+    display: inline-block;
+}
 .announce{
     margin: 12px 155px 0px 10px;
     border: 2px solid;
@@ -47,19 +50,23 @@ body{
     font-family: cursive;
     font-size: 18px;
     padding-right: 18px;
-    padding-left: 10px;
+display: inline-block;
     padding-top: 0px;
-     display: inline-block;
-    position: absolute;
-    top:160px;
+    padding-left: 18px;
+    margin-left: 530px;
+     position: relative;
+    bottom:388px;
+    border-width:medium;
 }
 .glance,.vision,.mission{
     border:5px solid;
-    margin-top:12px;
     background-color: #decd82;
     padding:8px;
+    margin-top: 11px;
     display: inline-block
         font-size: 20px;
+    position: relative;
+    bottom: 389px;
 }
 .glance h1{
     text-align: center;
@@ -85,19 +92,22 @@ body{
 .glance a{
      text-decoration: none;
     float :right;
-    padding-right: 400px;
+    padding-right: 320px;
     color: #ce1c7c;
 }
 .mission a{
      text-decoration: none;
     float :right;
-    padding-right: 400px;
+    padding-right: 278px;
     color: #ce1c7c;
    
 }
 .galnce{
     padding: 5px 5px 0px 8px;
     margin-right: 650px;
+   position: relative;
+    bottom:440px;
+  
 }
 .vision{
     margin-left: 650px;
@@ -113,7 +123,9 @@ body{
     padding: 0px 0px 0px 8px;
     background-color: #f5f5f5;
     margin-right: 250px;
-    margin-left: 400px
+    margin-left: 400px;
+    position: relative;
+    bottom: 390px;
 }
 .course h2{
     text-align: center;
@@ -137,7 +149,9 @@ body{
     margin-right: 450px;
     background-color: #d1a885;
     color: #726646;
-}
+   position: relative;
+    bottom:50px
+ }
 #copy img{
     padding-left: 45px;
 }
